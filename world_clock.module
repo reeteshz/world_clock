@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+
+function world_clock_theme($existing, $type, $theme, $path) {
+    return [
+      'world_clock__custom_ui' => [
+        'variables' => [
+          'data' => null
+        ],
+      ]
+    ];
+  }

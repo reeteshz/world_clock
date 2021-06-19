@@ -1,0 +1,6 @@
+name: World Clock
+type: module
+description: 'Displays time based on selected time zone'
+package: Custom
+version: 1.0
+core: 8.x

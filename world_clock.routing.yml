@@ -1,0 +1,9 @@
+clock_configuration.admin_settings_form:  
+  path: '/admin/config/world_clock/settings'  
+  defaults:  
+    _form: '\Drupal\world_clock\Form\ClockConfigurationForm'  
+    _title: 'World Clock Configuration'  
+  requirements:  
+    _permission: 'access world clock configuration'  
+  options:  
+    _admin_route: TRUE  

@@ -1,0 +1,4 @@
+services:
+ world_clock.current_time_at_location:
+   class: Drupal\world_clock\CurrentTimeAtLocation
+   arguments: ['@datetime.time', '@date.formatter', '@config.factory']
